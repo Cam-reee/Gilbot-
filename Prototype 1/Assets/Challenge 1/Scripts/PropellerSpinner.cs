@@ -15,6 +15,6 @@ public class PropellerSpinner : MonoBehaviour
     void Update()
     {
         
-        transform.Rotate(Vector3.right * spinSpeed * Time.deltaTime); 
+        transform.Rotate(Vector3.forward * spinSpeed * Time.deltaTime); 
     }
 }
